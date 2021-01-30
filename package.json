@@ -1,5 +1,5 @@
 {
-  "name": "serviceliteplus",
+  "name": "my-club-auto",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
