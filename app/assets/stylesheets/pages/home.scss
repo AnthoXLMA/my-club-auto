@@ -66,7 +66,7 @@
   }
 
   .menu2 {
-    padding:100px;
+    padding:5%;
 
     .cards-accueil {
       display:flex;
@@ -86,3 +86,29 @@
     }
   }
 
+.menu3 {
+  height:1000px;
+    background-image:url("vente-location.jpg");
+  .containe-vente {
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    margin-top:10px;
+  }
+  .ticket-1{
+    padding:5%;
+    margin:-200px;
+    margin-top:170px;
+    width:500px;
+    height:170px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    .text-ticket {
+      padding:5%;
+      a{
+      color:black;
+      }
+    }
+  }
+}
