@@ -119,7 +119,7 @@
     margin-top:-470px;
     .text-title {
        padding:50px;
-       border-color:orange;
+       border-color:#CC6119;
       h1{
       color:white;
       font-family:Montserrat;
@@ -129,21 +129,23 @@
     .square-line {
       margin-right:auto;
       margin-left:auto;
-      width:80%;
-      .bordure-line {
-    width: 100%;
-    border: 1px solid orange;
-    border-bottom: 1px solid orange;
-    margin-left:auto;
-    margin-right:auto;
-    }
-      .display-car{
+      width:100%;
+    //   .bordure-line {
+    // width: 100%;
+    // border: 1px solid #CC6119;
+    // border-bottom: 1px solid #CC6119;
+    // margin-left:auto;
+    // margin-right:auto;
+    // }
+      .display-car {
         width:100%;
-        margin-top:50px;
         display:flex;
         justify-content:center;
-        .actu-offer{
-          margin-right:30px;
+        border-top:solid #CC6119;
+        padding:50px;
+        .actu-offer {
+          margin-top:30px;
+          margin:20px;
           img {
           width:350px;
           height:280px;
